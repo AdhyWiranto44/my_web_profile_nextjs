@@ -68,6 +68,7 @@ const data = {
         {
             "img": "findmyhobby.webp",
             "heading": "Find My Hobby",
+            "year": "2021",
             "description": "Find My Hobby merupakan website yang berisi daftar hobi dan rekomendasi hobi yang banyak digemari orang-orang.",
             "link": "http://findmyhobby.herokuapp.com/",
             "technology": [
@@ -88,6 +89,7 @@ const data = {
         {
             "img": "openblog.webp",
             "heading": "Open Blog",
+            "year": "2021",
             "description": "Open-Blog merupakan projek website blogging open-source untuk keperluan pribadi atau komersial.",
             "link": "http://github.com/AdhyWiranto44/open-blog/",
             "technology": [
@@ -108,6 +110,7 @@ const data = {
         {
             "img": "twiceapi.webp",
             "heading": "TWICE API",
+            "year": "2021",
             "description": "API yang menyediakan informasi seputar TWICE seperti member dan album",
             "link": "http://twice-api.adhywiranto.xyz/",
             "technology": [
@@ -124,6 +127,7 @@ const data = {
         {
             "img": "ikasma3bdg.webp",
             "heading": "IKASMA3BDG",
+            "year": "2020",
             "description": "Web yang berisi data para alumni dengan fitur berita, forum bisnis, dan komunitas.",
             "link": "https://ikasma3bdg.com",
             "technology": [
@@ -140,6 +144,7 @@ const data = {
         {
             "img": "sound.webp",
             "heading": "SOUND",
+            "year": "2019",
             "description": "Website E-Commerce CRUD yang menjual headphone dan earphone.",
             "link": "https://github.com/AdhyWiranto44/sound",
             "technology": [
