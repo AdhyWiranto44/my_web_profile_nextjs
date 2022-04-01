@@ -5,7 +5,7 @@ import data from '../data';
 
 
 const Footer = () => {
-  const currentDate = new Date().getFullYear;
+  const currentDate = new Date().getFullYear();
   
   return (
     <footer id="footer" className="pt-5 myFooter">
@@ -21,8 +21,9 @@ const Footer = () => {
                 <div className="col-md-3 mb-3">
                     <h6 className="mb-2">Mini app</h6>
                     <ul>
-                        <li><a className="small d-block" href="/miniapp/covid-19">Covid-19 Indonesia</a></li>
-                        <li><a className="small d-block" href="/miniapp/weather">Weather</a></li>
+                        <li><p className="small d-block">Currently Unavailable :)</p></li>
+                        {/* <li><a className="small d-block" href="/miniapp/covid-19">Covid-19 Indonesia</a></li>
+                        <li><a className="small d-block" href="/miniapp/weather">Weather</a></li> */}
                     </ul>
                 </div>
                 <div className="col-md-3 mb-3">
@@ -34,16 +35,14 @@ const Footer = () => {
                 <div className="col-md-3 mb-3">
                     <h6 className="mb-2">Made with</h6>
                     <ul>
-                        <li><a className="small d-block" href="https://mongodb.org/">MongoDB</a></li>
-                        <li><a className="small d-block" href="https://expressjs.com/">Express.js</a></li>
+                        <li><a className="small d-block" href="https://nextjs.org/">NextJS</a></li>
                         <li><a className="small d-block" href="https://getbootstrap.com/">Bootstrap</a></li>
-                        <li><a className="small d-block" href="https://nodejs.org/en/">Node.js</a></li>
                     </ul>
                 </div>
             </div>
             <div className="row pt-3 border-top border-light">
                 <div className="col-md-6 text-center text-md-left pb-3">
-                    <small className="mr-2">&#169; {currentDate}. Made with &#10084; By {data.full_name}</small>
+                    <small className="mr-2">Copyright &#169; {currentDate}. Made with <span className="text-danger">&#10084;</span> By {data.full_name}</small>
                 </div>
                 <div className="col-md-6 text-center text-md-right pb-3">
                     {data.social_media.map((socmed, idx) => {
