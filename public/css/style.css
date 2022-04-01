@@ -31,6 +31,8 @@
     --hover-text-secondary: rgba(233, 233, 233, 0.5);
     --nav-link: #3E55E9;
     --theme-primary: #3E55E9;
+    --theme-primary2: #263bc4;
+    --hover-theme-primary2: #1A45E9;
     --theme-secondary: #7790FC;
     --hover-theme-secondary: rgba(119, 144, 252, .5);
     --navbar: rgba(255,255,255,0.5);
@@ -129,13 +131,15 @@ iframe:hover {
 
 .btn-dark {
     border: 0;
-    background: linear-gradient(30deg, var(--theme-primary), var(--theme-secondary));
+    background-color: var(--theme-primary);
+    /* background: linear-gradient(30deg, var(--theme-primary), var(--theme-secondary)); */
     box-shadow: 0 4px 10px var(--hover-theme-secondary);
     transition: .3s;
 }
 
 .btn-dark:hover {
-    background: linear-gradient(30deg, var(--theme-primary), var(--theme-secondary));
+    background-color: var(--hover-theme-primary2);
+    /* background: linear-gradient(30deg, var(--theme-primary), var(--theme-secondary)); */
     box-shadow: 0 10px 20px var(--hover-theme-secondary);
     transform: translateY(-3px);
 }
@@ -280,10 +284,10 @@ a.nav-link:hover {
 
 
 /* Jumbotron */
-#jumbotron {
+/* #jumbotron {
     padding-top: 70px;
     padding-bottom: 70px;
-}
+} */
 
 .jumbotronImg {
     margin-top: 75px;
@@ -317,7 +321,7 @@ a.nav-link:hover {
 #portfolio img,
 #portfolio .card,
 #portfolio .card-img-overlay, iframe, .jumbotronImg, .card {
-    border-radius: 27px;
+    border-radius: 18px;
 }
 
 #portfolio .card-img-overlay {
@@ -353,7 +357,8 @@ a.nav-link:hover {
 /* Footer */
 footer {
     color: #ececec;
-    background: linear-gradient(90deg, var(--theme-primary), var(--theme-secondary));
+    background-color: var(--theme-primary);
+    /* background: linear-gradient(90deg, var(--theme-primary), var(--theme-secondary)); */
 }
 
 footer i {
@@ -395,10 +400,10 @@ footer .border-top {
 
 @media (min-width: 992px) {
     .navbarLinks {
-        padding-left: 140px;
+        padding-left: 80px;
     }
 
-    a.nav-link::after {
+    /* a.nav-link::after {
         content: "";
         display: block;
         border-bottom: 3px solid var(--nav-link);
@@ -410,7 +415,7 @@ footer .border-top {
 
     a.nav-link:hover::after {
         opacity: 1;
-    }
+    } */
 
     a.contactMe {
         text-align: right !important;

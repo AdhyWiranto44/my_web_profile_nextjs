@@ -69,7 +69,7 @@ const data = {
             "img": "findmyhobby.webp",
             "heading": "Find My Hobby",
             "description": "Find My Hobby merupakan website yang berisi daftar hobi dan rekomendasi hobi yang banyak digemari orang-orang.",
-            "link": "http://findmyhobby.adhywiranto.xyz/",
+            "link": "http://findmyhobby.herokuapp.com/",
             "technology": [
                 {
                     "title": "Node js",
