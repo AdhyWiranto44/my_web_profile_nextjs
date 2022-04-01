@@ -66,6 +66,27 @@ const data = {
     ],
     "portfolio": [
         {
+            "img": "moneytory.webp",
+            "heading": "Moneytory",
+            "year": "2022",
+            "description": "Moneytory adalah aplikasi berbasis website yang diperuntukan untuk oleh Usaha Mikro Kecil Menengah (UMKM) untuk mengelola inventory dan keuangan.",
+            "link": "https://moneytory.000webhostapp.com/",
+            "technology": [
+                {
+                    "title": "Laravel",
+                    "icon": "fab fa-php"
+                },
+                {
+                    "title": "MongoDB",
+                    "icon": "fas fa-database"
+                },
+                {
+                    "title": "Bootstrap",
+                    "icon": "fab fa-bootstrap"
+                },
+            ]
+        },
+        {
             "img": "findmyhobby.webp",
             "heading": "Find My Hobby",
             "year": "2021",
@@ -112,7 +133,7 @@ const data = {
             "heading": "TWICE API",
             "year": "2021",
             "description": "API yang menyediakan informasi seputar TWICE seperti member dan album",
-            "link": "http://twice-api.adhywiranto.xyz/",
+            "link": "http://twice-api-server.herokuapp.com/",
             "technology": [
                 {
                     "title": "Node js",
