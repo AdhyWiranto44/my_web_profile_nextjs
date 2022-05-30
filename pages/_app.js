@@ -1,9 +1,17 @@
 import '../styles/globals.css'
 import '../public/css/style.css'
-// import '../public/js/script.js'
+import 'bootstrap/dist/css/bootstrap.css'
+import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Head>
+        
+      </Head>
+      <Component {...pageProps} />
+    </>
+  )
 }
 
 export default MyApp
