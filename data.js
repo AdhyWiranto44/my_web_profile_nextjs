@@ -26,7 +26,7 @@ const data = {
         }
     ],
     "photo": "profile-4.webp",
-    "about_me": "Hello, my name is Adhy Wiranto Sudjana, my friends called me Adhy. I'm an Informatics Engineering graduate passionate about coding and new technologies, creative, great contributor, loves Artificial Intelligence things, proficient in Web Development and Software Engineering.",
+    "about_me": "Hello, my name is Adhy Wiranto Sudjana, my friends called me Adhy. I'm an Informatics Engineering graduate passionate about coding and new technologies, creative, great contributor, currently learning Cloud Engineering, proficient in Web Development and Software Engineering.",
     "hobbies": [
         {
             "img": "coding.webp",
