@@ -14,8 +14,8 @@ export default function Home() {
             </div>
             <div className="col-md-6 offset-lg-1 jumbotronTitle">
               <small className="mb-0">Hello, my name is</small>
-              <h1>{data.full_name}</h1>
-              <p className="mb-2 font-weight-lighter">{data.job}</p>
+              <h1 className="fw-bold">{data.full_name}</h1>
+              <p className="mb-2 fw-lighter">{data.job}</p>
               {data.social_media.map((socmed, idx) => {
                 return (
                   <a key={idx} href={`socmed.link`} className="h4 mx-1 text-secondary" title={`socmed.title`}><i className={socmed.icon}></i></a>

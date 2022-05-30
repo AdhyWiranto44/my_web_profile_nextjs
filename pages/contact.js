@@ -19,18 +19,18 @@ const Contact = () => {
             <div className="row">
                 <div className="col-lg-6 offset-lg-3">
                     <form name="adhywiranto44-contact-me">
-                        <div className="form-group" data-aos="fade-right">
+                        <div className="form-group mb-3" data-aos="fade-right">
                             <input type="text" className="form-control shadow-sm" id="name" name="name" placeholder="name" required autoComplete="off" />
                         </div>
-                        <div className="form-group" data-aos="fade-right" data-aos-delay="50">
+                        <div className="form-group mb-3" data-aos="fade-right" data-aos-delay="50">
                             <input type="email" className="form-control shadow-sm" id="email" name="email" placeholder="email" required autoComplete="off" />
                         </div>
-                        <div className="form-group" data-aos="fade-right" data-aos-delay="100">
-                            <textarea className="form-control shadow-sm" id="messages" name="messages" rows="10" placeholder="message" required autoComplete="off"></textarea>
+                        <div className="form-group mb-3" data-aos="fade-right" data-aos-delay="100">
+                            <textarea className="form-control shadow-sm" id="messages" name="messages" rows="10" placeholder="message" required autoComplete="off" ></textarea>
                         </div>
-                        <button type="submit" className="btn btn-dark px-3 py-2 font-weight-bold btn-send" data-aos="fade-right" data-aos-delay="150">Send</button>
+                        <button type="submit" className="btn btn-dark px-3 py-2 fw-bold btn-send" data-aos="fade-right" data-aos-delay="150">Send</button>
                         
-                        <button className="btn btn-dark px-3 py-2 font-weight-bold btn-loading d-none" type="button" disabled>
+                        <button className="btn btn-dark px-3 py-2 fw-bold btn-loading d-none" type="button" disabled>
                             <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                             Loading...
                         </button>
