@@ -55,8 +55,11 @@ const HomeLayout = ({pageContent}) => {
 
       <div style={{
         flexGrow: 1,
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
         paddingTop: "100px",
-        paddingBottom: "100px",
+        paddingBottom: "0px",
       }}>
         {pageContent}
       </div>

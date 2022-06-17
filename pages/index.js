@@ -8,7 +8,7 @@ export default function Home() {
     <HomeLayout
       pageContent={
         <div id="jumbotron" className="container">
-          <div className="row">
+          <div className="row mb-5">
             <div className="col-md-4 text-center order-md-2">
               <img className="jumbotronImg bg-transparent" height="380" src={`../img/${data.photo}`} alt="Adhy Wiranto" />
             </div>
