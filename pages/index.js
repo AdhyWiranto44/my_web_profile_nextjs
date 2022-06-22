@@ -18,7 +18,7 @@ export default function Home() {
               <p className="mb-2 fw-lighter">{data.job}</p>
               {data.social_media.map((socmed, idx) => {
                 return (
-                  <a key={idx} href={`socmed.link`} className="h4 mx-1 text-secondary" title={`socmed.title`}><i className={socmed.icon}></i></a>
+                  <a key={idx} href={socmed.link} className="h4 mx-1 text-secondary" title={`socmed.title`}><i className={socmed.icon}></i></a>
                 )
               })}
               <br />

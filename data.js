@@ -5,22 +5,27 @@ const data = {
     "job": "Web Developer | Technology Enthusiast",
     "social_media": [
         {
-            "link": "https://www.linkedin.com/in/adhy-wiranto-665882155/",
+            "link": "https://www.linkedin.com/in/adhy-wiranto-sudjana-665882155/",
             "title": "LinkedIn",
             "icon": "fab fa-linkedin",
         },
         {
-            "link": "https://github.com/adhywiranto44",
+            "link": "https://github.com/adhywiranto44/",
             "title": "Github",
             "icon": "fab fa-github",
         },
         {
-            "link": "https://instagram.com/wanindemilien",
+            "link": "https://instagram.com/wanindemilien/",
             "title": "Instagram",
             "icon": "fab fa-instagram",
         },
         {
-            "link": "https://www.behance.net/skuukzkylxixsxa",
+            "link": "https://twitter.com/AdhyWiranto44/",
+            "title": "Twitter",
+            "icon": "fab fa-twitter",
+        },
+        {
+            "link": "https://www.behance.net/skuukzkylxixsxa/",
             "title": "Behance",
             "icon": "fab fa-behance-square",
         }
