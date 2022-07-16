@@ -26,7 +26,7 @@ const History = () => {
                       <ul className="timeline position-relative">
                         {data.history.educations.map((education, idx) => {
                           return (
-                            <li key={idx} className="list-unstyled ps-3">
+                            <li key={idx} className="list-unstyled ps-3 mb-3">
                               <small>{education.date}</small>
                               <p className="fw-bold mb-0">{education.description}</p>
                               <ul>
@@ -42,11 +42,11 @@ const History = () => {
                       </ul>
                     </div>
                     <div className="col-md-6 my-3" data-aos="fade-left" data-aos-delay="500">
-                      <h5 className="text-center mb-3">Work Experience</h5>
+                      <h5 className="text-center mb-3">Experience</h5>
                       <ul className="timeline position-relative">
                         {data.history.experiences.map((experience, idx) => {
                           return (
-                            <li key={idx} className="list-unstyled ps-3">
+                            <li key={idx} className="list-unstyled ps-3 mb-3">
                               <small>{experience.date}</small>
                               <p className="fw-bold mb-0">{experience.description}</p>
                               <ul>
@@ -56,19 +56,6 @@ const History = () => {
                                   );
                                 })}
                               </ul>
-                            </li>
-                          );
-                        })}
-                      </ul>
-                    </div>
-                    <div className="col-md my-3" data-aos="fade-left" data-aos-delay="500">
-                      <h5 className="text-center mb-3">Seminars</h5>
-                      <ul className="timeline position-relative">
-                        {data.history.seminars.map((seminar, idx) => {
-                          return (
-                            <li key={idx} className="list-unstyled ps-3">
-                              <small>{seminar.date}</small>
-                              <p>{seminar.description}</p>
                             </li>
                           );
                         })}
