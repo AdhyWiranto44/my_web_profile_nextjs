@@ -56,17 +56,17 @@ const data = {
     {
       "icon": "fas fa-laptop-code",
       "heading": "Programming",
-      "description": "Node JS, Javascript, Laravel, Java, Python, Next JS, MongoDB, MySQL"
+      "description": "Web Development, RESTful API, Google Cloud"
     },
     {
       "icon": "fas fa-layer-group",
       "heading": "UI/UX Design",
-      "description": "Figma, Adobe XD"
+      "description": "Figma, Adobe XD, Canva"
     },
     {
       "icon": "fas fa-bezier-curve",
       "heading": "Others",
-      "description": "Adobe Premiere Pro, Adobe Photoshop, Canva, Ms. Word, Ms. Powerpoint"
+      "description": "Microsoft Office, Video Editing"
     },
   ],
   "portfolio": [
