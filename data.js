@@ -34,22 +34,22 @@ const data = {
   "about_me": "Informatics Engineering graduate of Pasundan University, humble and skilled to build full-stack web applications and API using Node JS, React JS and Laravel. Good understanding of Object-Oriented Programming, Design Pattern, and Algorithm. Like to fix code, maintain code and explore new technologies. Experienced build projects in team, joined organization, and community. Looking for work opportunities and growth.",
   "hobbies": [
     {
-      "img": "coding.webp",
-      "title": "Photo bt Luca Bravo on Unsplash",
-      "heading": "Coding",
-      "description": "Find project inspirations, try something new"
+      "img": "reading-books.jpg",
+      "title": "Reading Books",
+      "heading": "Reading Books",
+      "description": "Find something new, implemented in real world. I recommended you to read Atomic Habits :)"
     },
     {
-      "img": "music.webp",
-      "title": "Photo by Maurice Lourens on Unsplash",
-      "heading": "Music",
+      "img": "listening-to-music.jpg",
+      "title": "Listening to Music",
+      "heading": "Listening to Music",
       "description": "POP and RnB."
     },
     {
-      "img": "gaming-2.webp",
-      "title": "Photo by Ammar ABU-ZAiD on Unsplash",
-      "heading": "Gaming",
-      "description": "Simulator Games"
+      "img": "youtube.jpg",
+      "title": "Youtube",
+      "heading": "Youtube",
+      "description": "Created programming videos, watch my subscripted channels"
     },
   ],
   "skills": [
