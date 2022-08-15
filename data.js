@@ -5,7 +5,7 @@ const data = {
   "job": "Web Developer | Technology Enthusiast",
   "social_media": [
     {
-      "link": "https://www.linkedin.com/in/adhy-wiranto-sudjana-665882155/",
+      "link": "https://www.linkedin.com/in/adhy-wiranto-sudjana-s-t-665882155/",
       "title": "LinkedIn",
       "icon": "fab fa-linkedin",
     },
@@ -15,7 +15,7 @@ const data = {
       "icon": "fab fa-github",
     },
     {
-      "link": "https://instagram.com/wanindemilien/",
+      "link": "https://instagram.com/adhywiranto44/",
       "title": "Instagram",
       "icon": "fab fa-instagram",
     },
