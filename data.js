@@ -96,14 +96,14 @@ const data = {
       "heading": "Find My Hobby",
       "year": "2021",
       "description": "Find My Hobby merupakan website yang berisi daftar hobi dan rekomendasi hobi yang banyak digemari orang-orang.",
-      "link": "http://findmyhobby.herokuapp.com/",
+      "link": "http://findmyhobby.vercel.app/",
       "technology": [
         {
           "title": "Node js",
           "icon": "fab fa-node-js"
         },
         {
-          "title": "MongoDB",
+          "title": "PostgreSQL",
           "icon": "fas fa-database"
         },
         {

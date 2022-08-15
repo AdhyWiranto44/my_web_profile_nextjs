@@ -20,7 +20,7 @@ const Portfolio = () => {
                     <img src={`../img/portfolio/${portfolio.img}`} className="card-img-top" alt="portfolio" />
                     <div className="card-body">
                       <h5 className="card-title mb-0">{portfolio.heading}</h5>
-                      <p className="mb-3 fw-bold small">{portfolio.year}</p>
+                      <p className="mb-3 small text-secondary">{portfolio.year}</p>
                       <p className="card-text text-justify">{portfolio.description}</p>
                       <small className="text-muted d-block mb-1">Technology</small>
                       {portfolio.technology.map((tech, idx) => {
